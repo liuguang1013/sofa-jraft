@@ -120,6 +120,7 @@ public final class JRaftUtils {
     /**
      * Create a peer from a string in the form of "host:port[:idx]",
      * returns a empty peer when string is blank.
+     * 从“host:port[:idx]”形式的字符串创建对等体。
      */
     public static PeerId getPeerId(final String s) {
         final PeerId peer = new PeerId();
